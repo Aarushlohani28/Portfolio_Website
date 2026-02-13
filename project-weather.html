@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="container project-detail">
+        <h2 class="section-title">Weather App</h2>
+        <div class="project-content">
+            <div class="project-image-large">
+                <img src="images/weather_app_thumbnail.png" alt="Weather App Screenshot"
+                    onerror="this.style.display='none'">
+            </div>
+            <div class="project-description">
+                <p>An interactive weather dashboard that fetches real-time weather data from the OpenWeatherMap API. It
+                    displays current conditions, humidity, wind speed, and a 5-day forecast.</p>
+                <br>
+                <h3>Technologies Used</h3>
+                <ul class="tech-list">
+                    <li>JavaScript (Async/Await)</li>
+                    <li>OpenWeatherMap API</li>
+                    <li>CSS3 (Animations)</li>
+                </ul>
+                <div class="project-buttons">
+                    <a href="#" class="btn">View Live Demo</a>
+                    <a href="#" class="btn-small">View Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aarush Lohani. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
